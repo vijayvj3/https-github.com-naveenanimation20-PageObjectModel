@@ -1,21 +1,24 @@
-package demotc;
- 
+
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.chrome.ChromeDriver;
-import org.testng.annotations.Test;
-public class Openchrome {
  
-@Test
-public void test12() throws Exception{
+import org.openqa.selenium.chrome.ChromeDriver;
+ 
+public class TestChrome {
+ 
+public static void main(String[] args) {
+ 
+System.setProperty("webdriver.chrome.driver", "path of the exe file\\chromedriver.exe");
  
 // Initialize browser
 WebDriver driver=new ChromeDriver();
  
-// Open Google
-driver.get("http://www.google.com");
+// Open facebook
+driver.get("http://www.facebook.com");
  
-// Close browser
-driver.close();
+// Maximize browser
+ 
+driver.manage().window().maximize();
+ 
 }
  
 }
