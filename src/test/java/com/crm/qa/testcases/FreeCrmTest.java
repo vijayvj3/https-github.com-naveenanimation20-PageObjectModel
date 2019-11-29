@@ -7,13 +7,13 @@ public class TestChrome {
  
 public static void main(String[] args) {
  
-System.setProperty("webdriver.chrome.driver", "C:\Users\vi20090299\Downloads\IEDriverServer_Win32_3.150.1");
+System.setProperty("webdriver.chrome.driver", "C:\\Users\\vi20090299\/Downloads\\New folder\\chromedriver_win32\\chromedriver.exe");
  
 // Initialize browser
 WebDriver driver=new ChromeDriver();
  
 // Open facebook
-driver.get("http://www.facebook.com");
+driver.get("http://ww.facebook.com");\\chromedriver.exe
  
 // Maximize browser
  
