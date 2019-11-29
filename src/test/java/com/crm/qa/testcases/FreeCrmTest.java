@@ -7,7 +7,7 @@ public class TestChrome {
  
 public static void main(String[] args) {
  
-System.setProperty("webdriver.chrome.driver", "\Users\vi20090299\Downloads\chromedriver_linux64 (1).zip");
+System.setProperty("webdriver.chrome.driver", "C:\Users\vi20090299\Downloads\IEDriverServer_Win32_3.150.1");
  
 // Initialize browser
 WebDriver driver=new ChromeDriver();
