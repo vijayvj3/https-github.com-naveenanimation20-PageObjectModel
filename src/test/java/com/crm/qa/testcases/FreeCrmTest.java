@@ -13,7 +13,7 @@ System.setProperty("webdriver.chrome.driver", "C:\\Users\\vi20090299\\Downloads\
 WebDriver driver=new ChromeDriver();
  
 // Open facebook
-driver.get("http://ww.facebook.com");\\chromedriver.exe
+driver.get("http://ww.facebook.com");
  
 // Maximize browser
  
